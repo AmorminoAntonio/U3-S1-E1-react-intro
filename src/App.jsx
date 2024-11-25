@@ -7,7 +7,7 @@ function App() {
   return (
           <div className="App">
       
-               <img src={logo} className="App-logo" alt="logo" width="10%"/>
+               <img src={logo} className="App-logo" alt="logo" width="30%"/>
       
       
         
@@ -20,13 +20,14 @@ function App() {
       alt="img personal computer"
       width="50%"
       title="Vieni a visitare anche tu il nuovo mondo del tech!"
-      />
+      imgStyle={{borderRadius: "4rem", }}
+            />
 
       
 
         <ButtonComponent
         buttonText="Click me!"
-        buttonStyle={{ backgroundColor: "grey", color: "white", border: "1px solid white", boxShadow: "2px 4px 2px black", padding: "1rem", borderRadius: "10px", marginBottom: "2rem", hover: "white"}}
+        buttonStyle={{ backgroundColor: "grey", color: "white", border: "1px solid white", boxShadow: "2px 4px 2px black", padding: "1rem", borderRadius: "10px", marginBottom: "2rem"}}
         />
 
 
